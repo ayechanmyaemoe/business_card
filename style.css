@@ -1,0 +1,39 @@
+.avatar {
+    width: 170px;
+    margin-top: 10px;
+}
+
+.card {
+    width: 450px;
+    background: blanchedalmond;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom: 5px solid rosybrown;
+    border-top: 5px solid rosybrown; */
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes example {
+    0% {background-color: blanchedalmond;}
+    50% {background-color: burlywood;}
+    100% {background-color: cornsilk;}
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+ /* .card:hover {
+    box-shadow: 5px 5px lightcoral;
+}  */
+
